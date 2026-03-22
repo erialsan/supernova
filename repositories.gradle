@@ -1,0 +1,23 @@
+// Add any additional repositories for your dependencies here.
+
+repositories {
+    mavenLocal()
+    maven {
+        name = "GTNH Maven"
+        url = uri("https://nexus.gtnewhorizons.com/repository/public/")
+    }
+    maven {
+        name = "FalsePattern"
+        url = uri("https://mvn.falsepattern.com/releases/")
+        content {
+            includeGroup("com.falsepattern")
+        }
+    }
+    maven {
+        name = "mega"
+        url = uri("https://mvn.falsepattern.com/gtmega_releases/")
+        content {
+            includeGroup("mega")
+        }
+    }
+}

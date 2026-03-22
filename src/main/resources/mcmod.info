@@ -1,0 +1,28 @@
+{
+  "modListVersion": 2,
+  "modList": [
+    {
+      "modid": "${modId}",
+      "name": "${modName}",
+      "description": "RGB colored lighting engine for Minecraft 1.7.10, based on Starlight.",
+      "version": "${modVersion}",
+      "mcversion": "${minecraftVersion}",
+      "url": "",
+      "updateUrl": "",
+      "authorList": [
+        "mitchej123"
+      ],
+      "credits": "SpottedLeaf (Starlight)",
+      "logoFile": "",
+      "screenshots": [],
+      "parent": "",
+      "requiredMods": [
+        "chunkapi@[0.8.1,)",
+        "hodgepodge@[2.7.107,)"
+      ],
+      "dependencies": [],
+      "dependants": [],
+      "useDependencyInformation": true
+    }
+  ]
+}
