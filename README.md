@@ -36,6 +36,14 @@ Blocks can provide dynamic colored emission via the `ColoredLightSource` interfa
 * [Angelica](https://github.com/GTNewHorizons/Angelica) (>= 2.1.6, RGB-aware rendering; falls back to vanilla tinting without it)
 * [EndlessIDs](https://github.com/GTMEGA/EndlessIDs)
 
+## Incompatibilities
+
+Supernova replaces the vanilla lighting engine, and does so in such a fashion that it's incompatible with other lighting engines and mixins.
+
+* ArchaicFix - Phosphor - Phosphor must be disabled.
+* CoreTweaks - fixHeightmapRange - Config/Mixin must be disabled.
+* Lumi/RPLE - Incompatible. 
+
 ## Configuration
 
 - `config/supernova.cfg` - lighting mode (`RGB` or `SCALAR`), client blend mode
